@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cd2b1693272225c4e9b4ace698ce1915
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - My Coffee Break
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0c5b5b25258205d4dab25e7739da1f2f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
