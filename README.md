@@ -3,7 +3,7 @@
 
 git clone https://github.com/tani-go/tani-go.git
 
-cd mbok-rondo-game
+cd tani-go
 
 🔁 2. Ambil Update Terbaru dari master (Setiap Hari) Agar project lokal kamu selalu sesuai dengan pekerjaan terbaru dari tim lain:
 
