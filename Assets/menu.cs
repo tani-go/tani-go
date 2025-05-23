@@ -22,4 +22,9 @@ public class menu : MonoBehaviour
     {
         SceneManager.LoadScene(scenename);
     }
+
+    public void SettingsButton(string scenename)
+    {
+        SceneManager.LoadScene(scenename);
+    }
 }
