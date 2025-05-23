@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297ca2f60cd18374e8be26271cbbc3de, type: 3}
+  m_Name: Jagung
+  m_EditorClassIdentifier: 
+  plantType: 1
+  growthPrefabs:
+  - {fileID: 1218075016822792787, guid: e80333b88194b9a4689550294fee1f14, type: 3}
+  - {fileID: 3885579143942724906, guid: d1af8f87156df414a844d8c0e11688d2, type: 3}
+  - {fileID: 8890314757930929471, guid: 22bdb567b957c2c4aab7bc4c625feb53, type: 3}
+  growthTimes:
+  - 3
+  - 5
+  - 7
