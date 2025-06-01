@@ -25,11 +25,15 @@ public class PlantPlotGroup : MonoBehaviour
         }
     }
 
-    public void SetHighlighted(bool highlighted){
-        foreach (var rend in renderers){
-            rend.material = highlighted ? selectedMaterial: originalMaterial;
+    public void SetHighlighted(bool highlighted)
+    {
+        Debug.Log($"SetHighlighted dipanggil: {highlighted}, Jumlah Renderer: {renderers.Length}");
+        foreach (var rend in renderers)
+        {
+            rend.material = highlighted ? selectedMaterial : originalMaterial;
         }
     }
+
 
     void OnMouseDown(){
         FindObjectOfType<PlantManager>().SetSelectedGroup(this);
