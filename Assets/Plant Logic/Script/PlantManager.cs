@@ -26,6 +26,31 @@ public class PlantManager : MonoBehaviour
         selectedGroup.SetHighlighted(true);
         Debug.Log("Sawah dipilih: "+ group.name);
     }   
+
+        public void Harvest()
+    {
+        if (selectedGroup != null)
+        {
+            selectedGroup.HarvestAll();
+        }
+    }
+    public void ClearSelection()
+    {
+        if (selectedGroup != null)
+        {
+            selectedGroup.SetHighlighted(false);
+            selectedGroup = null;
+        }
+    }
+
+        public void HarvestSelected()
+    {
+        if (selectedGroup != null)
+        {
+            selectedGroup.HarvestAll();
+        }
+
+    }
     // Start is called before the first frame update
     void Start()
     {

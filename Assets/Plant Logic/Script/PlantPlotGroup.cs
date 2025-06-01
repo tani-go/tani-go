@@ -39,6 +39,13 @@ public class PlantPlotGroup : MonoBehaviour
     {
         
     }
+    public void HarvestAll()
+    {
+        foreach (var plot in plots)
+        {
+            plot.Harvest();
+        }
+    }
 
     // Update is called once per frame
     void Update()

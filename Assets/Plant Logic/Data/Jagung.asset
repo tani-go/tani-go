@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 297ca2f60cd18374e8be26271cbbc3de, type: 3}
   m_Name: Jagung
   m_EditorClassIdentifier: 
+  wiltedPrefab: {fileID: 6833860307140248521, guid: 21e4996b90f6174428ddf2f6ab9f8e46, type: 3}
   plantType: 1
   growthPrefabs:
   - {fileID: 1218075016822792787, guid: e80333b88194b9a4689550294fee1f14, type: 3}

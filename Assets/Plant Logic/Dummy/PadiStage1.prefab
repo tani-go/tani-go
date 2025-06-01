@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2847825846368910926}
   - component: {fileID: 934127545678970749}
   - component: {fileID: 4359513819482673064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PadiStage1
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

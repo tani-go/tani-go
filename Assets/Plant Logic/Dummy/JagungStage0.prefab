@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7142644255090270609}
   - component: {fileID: 578256252339639669}
   - component: {fileID: 8102101935685741118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: JagungStage0
-  m_TagString: Untagged
+  m_TagString: Plant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

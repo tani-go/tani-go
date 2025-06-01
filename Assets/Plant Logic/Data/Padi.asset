@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 297ca2f60cd18374e8be26271cbbc3de, type: 3}
   m_Name: Padi
   m_EditorClassIdentifier: 
+  wiltedPrefab: {fileID: 8614344768504238160, guid: 71d2273cef05d6f4e96d0247d8eb1e9e, type: 3}
   plantType: 0
   growthPrefabs:
   - {fileID: 6568492284932424157, guid: 87b8c7d3ef0a92844b5b9dee487206fa, type: 3}
