@@ -13,8 +13,8 @@ public class GameUI : MonoBehaviour
     public Button bersihkanButton;
     public Button siramButton;
     public Button semprotHamaButton;
-  //  public TMP_Text notifikasiText;
-
+    public TMP_Text taskListText; // ✅ letakkan di sini
+    public PlantPlotGroup[] allGroups; // ✅ letakkan di sini
     public void UpdateUI()
     {
         hariText.text = "Hari ke: " + timeManager.GetCurrentDay();
@@ -25,11 +25,15 @@ public class GameUI : MonoBehaviour
     {
         selectedGroup = group;
         UpdateButtonVisibility();
+            UpdateTaskListUI(); // Tambahkan ini
+
     }
 
     void Update()
     {
         UpdateUI(); // update terus setiap frame (bisa dioptimalkan nanti)
+            UpdateTaskListUI(); // ⬅️ tambahkan ini
+
     }
 
     public void SkipDayBtn()
@@ -63,6 +67,8 @@ public class GameUI : MonoBehaviour
             {
                 plot.Water();
                 plot.WaterPlantToday(); // ⬅️ Tambahkan ini
+                    UpdateTaskListUI(); // ⬅️ update tampilan
+
             }
         }
 
@@ -84,7 +90,7 @@ public class GameUI : MonoBehaviour
 
                 if (plot.plantData != null &&
                     plot.plantData.plantType == PlantData.PlantType.Jagung &&
-                    plot.soilState == PlantPlot.SoilState.Bajak)
+                    !plot.hasWateredToday && !plot.isDead)
                 {
                     adaJagungBelumDisiram = true;
                 }
@@ -105,6 +111,7 @@ public class GameUI : MonoBehaviour
     {
         InvokeRepeating(nameof(UpdateUI), 0f, 1f); // update setiap 1 detik
     }
+    
     public void SemprotHama()
     {
         if (selectedGroup == null) return;
@@ -117,6 +124,7 @@ public class GameUI : MonoBehaviour
             }
         }
 
+        UpdateTaskListUI(); // Tambahkan ini
         UpdateButtonVisibility();
     }
     // void ShowNotif(string message)
@@ -129,6 +137,47 @@ public class GameUI : MonoBehaviour
     // void HideNotif()
     // {
     //     notifikasiText.text = "";
-    // }
+    // }public PlantPlotGroup[] allGroups; // drag semua group ke inspector
+
+public void UpdateTaskListUI()
+{
+    int totalJagung = 0;
+    int jagungDisiram = 0;
+    int totalTanaman = 0;
+    int pestRemoved = 0;
+
+    foreach (var group in allGroups)
+    {
+        foreach (var plot in group.GetPlots())
+        {
+            if (plot.plantData != null && !plot.isDead && !plot.IsInPreparation())
+            {
+                totalTanaman++;
+                if (plot.hasRemovedPestToday) pestRemoved++;
+
+                if (plot.plantData.plantType == PlantData.PlantType.Jagung)
+                {
+                    totalJagung++;
+                    if (plot.hasWateredToday) jagungDisiram++;
+                }
+            }
+        }
+    }
+    // Update UI text
+    taskListText.text = "";
+
+    if (totalJagung > 0)
+    {
+        taskListText.text += $"☐ Siram Jagung: ({jagungDisiram}/{totalJagung})\n";
+    }
+    if (totalTanaman > 0)
+    {
+        taskListText.text += $"☐ Semprot Hama: ({pestRemoved}/{totalTanaman})\n";
+    }
+
+    // Jika tidak ada task sama sekali, sembunyikan text
+    taskListText.gameObject.SetActive(taskListText.text != "");
+
+}
 
 }

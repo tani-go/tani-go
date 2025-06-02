@@ -15,8 +15,8 @@
         private int prepDayCounter = 0;
         private bool isPreparing = false;
         private bool isWatered = false; // Untuk jagung
-        private bool hasWateredToday = false;
-        private bool hasRemovedPestToday = false;
+        public bool hasWateredToday = false;
+        public bool hasRemovedPestToday = false;
         bool matiKarenaAir = false;
         bool matiKarenaHama = false;
 
@@ -211,13 +211,29 @@
             {
                 stage++;
                 daysWaited = 0;
-                hasStageJustChanged = true;
-                UpdateVisual();
-            }
+                UpdateVisual(); // Perbarui dulu sebelum cek
 
-            // Reset harian
-            hasWateredToday = false;
-            hasRemovedPestToday = false;
+                // Setelah naik stage, cek apakah butuh air (khusus padi)
+                if (plantData.plantType == PlantData.PlantType.Padi && soilState != SoilState.Air)
+                {
+                    matiKarenaAir = true;
+                }
+
+                if (!hasRemovedPestToday)
+                {
+                    matiKarenaHama = true;
+                }
+
+                if (matiKarenaAir || matiKarenaHama)
+                {
+                    isDead = true;
+                    Debug.Log($"Tanaman mati! Air: {matiKarenaAir}, Hama: {matiKarenaHama}");
+                    UpdateVisual();
+                    return;
+                }
+
+                return; // selesai proses grow hari ini
+            }
         }
 
         public void Harvest(){
@@ -273,6 +289,10 @@
         {
             hasRemovedPestToday = true;
             Debug.Log("Hama dihapus hari ini.");
+        }
+        public bool IsInPreparation()
+        {
+            return isPreparing;
         }
 
     }
