@@ -17,7 +17,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel");
-        Debug.Log("Scroll Value: " + scroll);
+      //  Debug.Log("Scroll Value: " + scroll);
         HandleMousePan();
         HandleMouseZoom();
     }

@@ -12,6 +12,8 @@ public class GameUI : MonoBehaviour
     private PlantPlotGroup selectedGroup;
     public Button bersihkanButton;
     public Button siramButton;
+    public Button semprotHamaButton;
+  //  public TMP_Text notifikasiText;
 
     public void UpdateUI()
     {
@@ -60,15 +62,18 @@ public class GameUI : MonoBehaviour
                 plot.soilState == PlantPlot.SoilState.Bajak)
             {
                 plot.Water();
+                plot.WaterPlantToday(); // ⬅️ Tambahkan ini
             }
         }
 
         UpdateButtonVisibility();
     }
+
     void UpdateButtonVisibility()
     {
         bool adaTanamanMati = false;
         bool adaJagungBelumDisiram = false;
+        bool adaPerluSemprot = false;
 
         if (selectedGroup != null)
         {
@@ -83,11 +88,47 @@ public class GameUI : MonoBehaviour
                 {
                     adaJagungBelumDisiram = true;
                 }
+
+                if (plot.plantData != null)
+                {
+                    adaPerluSemprot = true;
+                }
             }
         }
 
         bersihkanButton.gameObject.SetActive(adaTanamanMati);
         siramButton.gameObject.SetActive(adaJagungBelumDisiram);
+        semprotHamaButton?.gameObject.SetActive(adaPerluSemprot); // pastikan sudah di-assign di inspector
     }
+
+    void Start()
+    {
+        InvokeRepeating(nameof(UpdateUI), 0f, 1f); // update setiap 1 detik
+    }
+    public void SemprotHama()
+    {
+        if (selectedGroup == null) return;
+
+        foreach (var plot in selectedGroup.GetPlots())
+        {
+            if (plot.plantData != null)
+            {
+                plot.RemovePestToday(); // tandai sudah dihapus hamanya hari ini
+            }
+        }
+
+        UpdateButtonVisibility();
+    }
+    // void ShowNotif(string message)
+    // {
+    //     notifikasiText.text = message;
+    //     CancelInvoke(nameof(HideNotif));
+    //     Invoke(nameof(HideNotif), 2f); // sembunyikan dalam 2 detik
+    // }
+
+    // void HideNotif()
+    // {
+    //     notifikasiText.text = "";
+    // }
 
 }

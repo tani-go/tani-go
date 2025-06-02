@@ -17,6 +17,8 @@
         private bool isWatered = false; // Untuk jagung
         private bool hasWateredToday = false;
         private bool hasRemovedPestToday = false;
+        bool matiKarenaAir = false;
+        bool matiKarenaHama = false;
 
         public GameObject tanahNormal;
         public GameObject tanahBajak;
@@ -148,12 +150,11 @@
                         UpdateVisual();
                         return;
                     }
-                    
                 }
 
                 return; // jangan tumbuh selama masa persiapan
             }
-            // Hanya cek musim jika di stage 1
+
             if (stage == 1)
             {
                 var currentSeason = FindObjectOfType<SeasonManager>().GetCurrentSeason();
@@ -170,13 +171,53 @@
                 }
             }
 
+            bool hasStageJustChanged = false; // ❗ Dideklarasikan hanya sekali
+
+            if (plantData.plantType == PlantData.PlantType.Jagung)
+            {
+                if (!hasWateredToday)
+                {
+                    matiKarenaAir = true;
+                }
+
+                if (!hasRemovedPestToday)
+                {
+                    matiKarenaHama = true;
+                }
+            }
+            else if (plantData.plantType == PlantData.PlantType.Padi)
+            {
+                if (hasStageJustChanged && soilState != SoilState.Air)
+                {
+                    matiKarenaAir = true;
+                }
+
+                if (!hasRemovedPestToday)
+                {
+                    matiKarenaHama = true;
+                }
+            }
+
+            if (matiKarenaAir || matiKarenaHama)
+            {
+                isDead = true;
+                Debug.Log($"Tanaman mati! Air: {matiKarenaAir}, Hama: {matiKarenaHama}");
+                UpdateVisual();
+                return;
+            }
+
             daysWaited++;
             if (daysWaited >= plantData.growthTimes[stage])
             {
                 stage++;
                 daysWaited = 0;
+                hasStageJustChanged = true;
                 UpdateVisual();
             }
+
+            // Reset harian
+            hasWateredToday = false;
+            hasRemovedPestToday = false;
         }
 
         public void Harvest(){
@@ -221,6 +262,17 @@
                 isWatered = true;
                 UpdateVisual();
             }
+        }
+        public void WaterPlantToday()
+        {
+            hasWateredToday = true;
+            Debug.Log("Tanaman disiram hari ini.");
+        }
+
+        public void RemovePestToday()
+        {
+            hasRemovedPestToday = true;
+            Debug.Log("Hama dihapus hari ini.");
         }
 
     }

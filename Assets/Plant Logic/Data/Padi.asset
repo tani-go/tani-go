@@ -15,10 +15,10 @@ MonoBehaviour:
   wiltedPrefab: {fileID: 8614344768504238160, guid: 71d2273cef05d6f4e96d0247d8eb1e9e, type: 3}
   plantType: 0
   growthPrefabs:
-  - {fileID: 9075368574752357768, guid: 062ccd3cd1385fd4ba7165ffde7d0ef5, type: 3}
-  - {fileID: 6568492284932424157, guid: 87b8c7d3ef0a92844b5b9dee487206fa, type: 3}
-  - {fileID: 8413690463570810508, guid: ba013f86fc81d394da10868f7ea1a1cc, type: 3}
-  - {fileID: 4864410116255687265, guid: 1570f611b8bb9c14c81ee4255f2c55c2, type: 3}
+  - {fileID: 919132149155446097, guid: 959f355c4289f754f94cb711af8953f5, type: 3}
+  - {fileID: 2582875128571546930, guid: f4ea6b9d24fd2164795278fa98ffb6c1, type: 3}
+  - {fileID: 919132149155446097, guid: 26cdea498ad558e4999e45581ea17024, type: 3}
+  - {fileID: 919132149155446097, guid: 64a07652465aae04eab91d99f2c17ee1, type: 3}
   growthTimes:
   - 2
   - 3
