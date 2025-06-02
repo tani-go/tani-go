@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class SettingsMenu : MonoBehaviour
 {
+    public Toggle fullscreenToggle;
+    public Toggle windowedToggle;
+    private bool isChanging = false;
     [SerializeField] Slider volumeSlider; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,20 @@ public class SettingsMenu : MonoBehaviour
         {
             Load();
         }
+
+        if (Screen.fullScreenMode == FullScreenMode.Windowed)
+        {
+            windowedToggle.isOn = true;
+            fullscreenToggle.isOn = false;
+        }
+        else
+        {
+            fullscreenToggle.isOn = true;
+            windowedToggle.isOn = false;
+        }
+
+        fullscreenToggle.onValueChanged.AddListener(OnFullscreenToggleChanged);
+        windowedToggle.onValueChanged.AddListener(OnWindowedToggleChanged);
     }
 
     public void ChangeVolume()
@@ -41,5 +59,31 @@ public class SettingsMenu : MonoBehaviour
     public void BackButton(string scenename)
     {
         SceneManager.LoadScene(scenename);
+    }
+
+    private void OnFullscreenToggleChanged(bool isOn)
+    {
+        if (isChanging) return;
+
+        if (isOn)
+        {
+            isChanging = true;
+            windowedToggle.isOn = false;
+            Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
+            isChanging = false;
+        }
+    }
+
+    private void OnWindowedToggleChanged(bool isOn)
+    {
+        if (isChanging) return;
+
+        if (isOn)
+        {
+            isChanging = true;
+            fullscreenToggle.isOn = false;
+            Screen.fullScreenMode = FullScreenMode.Windowed;
+            isChanging = false;
+        }
     }
 }
