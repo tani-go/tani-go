@@ -56,4 +56,9 @@ public class PlantPlotGroup : MonoBehaviour
     {
         
     }
+    public List<PlantPlot> GetPlots()
+    {
+        return plots;
+    }
+
 }

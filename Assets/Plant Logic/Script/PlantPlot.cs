@@ -15,6 +15,8 @@
         private int prepDayCounter = 0;
         private bool isPreparing = false;
         private bool isWatered = false; // Untuk jagung
+        private bool hasWateredToday = false;
+        private bool hasRemovedPestToday = false;
 
         public GameObject tanahNormal;
         public GameObject tanahBajak;
@@ -31,11 +33,17 @@
 
         public void Plant(PlantData newPlant)
         {
-            if(plantData != null && !isDead && stage <plantData.growthPrefabs.Length -1)
+        if (plantData != null && !isDead && stage < plantData.growthPrefabs.Length - 1)
             {
-            Debug.Log("Plot masih ada isinya");
-            return; 
+                Debug.Log("Plot masih ada isinya");
+                return;
             }
+            else if (isDead)
+            {
+                Debug.Log("Tanaman mati harus dibersihkan dulu!");
+                return;
+            }
+
 
             plantData = newPlant;
             stage = 0;
@@ -140,6 +148,7 @@
                         UpdateVisual();
                         return;
                     }
+                    
                 }
 
                 return; // jangan tumbuh selama masa persiapan
@@ -185,6 +194,25 @@
                 isDead = false;
                 UpdateVisual(); // Bersihkan visual
         }
+        public void ClearDeadPlant()
+        {
+            if (isDead)
+            {
+                Debug.Log("Tanaman mati dibersihkan.");
+                plantData = null;
+                stage = 0;
+                timer = 0f;
+                daysWaited = 0;
+                isDead = false;
+                soilState = SoilState.Empty; // Kembalikan tanah ke kosong
+                UpdateVisual();
+            }
+            else
+            {
+                Debug.Log("Tidak ada tanaman mati yang perlu dibersihkan.");
+            }
+        }
+
         public void Water()
         {
             if (plantData != null && plantData.plantType == PlantData.PlantType.Jagung && soilState == SoilState.Bajak)

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class GameTimeManager : MonoBehaviour
 {
-    public float secondsPerDay = 60f; //600 = 10 menit
+    public float secondsPerDay = 120f; //600 = 10 menit
     private float timeCounter = 0f;
     public int currentDay = 1;
     public enum WaktuHarian{Pagi, Siang, Sore, Malam}

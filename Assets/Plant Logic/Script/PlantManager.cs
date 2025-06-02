@@ -23,6 +23,8 @@ public class PlantManager : MonoBehaviour
         selectedGroup.SetHighlighted(false);
         
         selectedGroup = group;
+        FindObjectOfType<GameUI>().SetSelectedGroup(group);
+
         selectedGroup.SetHighlighted(true);
         Debug.Log("Sawah dipilih: "+ group.name);
     }   
@@ -62,4 +64,5 @@ public class PlantManager : MonoBehaviour
     {
         
     }
+    
 }
