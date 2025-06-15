@@ -94,34 +94,5 @@ public class InventoryManager : MonoBehaviour
     {
         Debug.Log("🔙 Tombol back ditekan");
         SceneManager.LoadScene("Level Design Demo 01"); // GANTI dengan nama scene gameplay kamu
-        }
-    }
-
-    public void AddItem(string itemName)
-    {
-        if (!items.ContainsKey(itemName))
-            items[itemName] = 0;
-
-        items[itemName]++;
-        Debug.Log("Item Ditambahkan: " + itemName + " (" + items[itemName] + ")");
-    }
-
-    public bool HasItem(string itemName)
-    {
-        return items.ContainsKey(itemName) && items[itemName] > 0;
-    }
-
-    public void RemoveItem(string itemName)
-    {
-        if (HasItem(itemName))
-        {
-            items[itemName]--;
-            Debug.Log("Item Dikurangi: " + itemName + " (" + items[itemName] + ")");
-        }
-    }
-
-    public int GetItemCount(string itemName)
-    {
-        return items.ContainsKey(itemName) ? items[itemName] : 0;
     }
 }
