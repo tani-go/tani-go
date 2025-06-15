@@ -95,7 +95,7 @@ public class InventoryManager : MonoBehaviour
         Debug.Log("🔙 Tombol back ditekan");
         SceneManager.LoadScene("Level Design Demo 01"); // GANTI dengan nama scene gameplay kamu
         }
-    }
+    
 
     public void AddItem(string itemName)
     {
