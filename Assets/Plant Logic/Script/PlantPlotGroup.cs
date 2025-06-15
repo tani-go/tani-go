@@ -52,6 +52,7 @@ public class PlantPlotGroup : MonoBehaviour
     {
         int totalPadi = 0;
         int totalJagung = 0;
+        int totalXP = 0;
 
         foreach (var plot in plots)
         {
@@ -61,24 +62,38 @@ public class PlantPlotGroup : MonoBehaviour
                 bool berhasil = plot.Harvest();
                 if (berhasil)
                 {
-                    if (jenis == "Padi") totalPadi++;
-                    else if (jenis == "Jagung") totalJagung++;
+                if (jenis == "Padi")
+                {
+                    totalPadi++;
+                    totalXP += 10; // Misalnya 10 XP per Padi
+                }
+                else if (jenis == "Jagung")
+                {
+                    totalJagung++;
+                    totalXP += 15; // Misalnya 15 XP per Jagung
+                }
                 }
             }
         }
 
         if (totalPadi > 0)
-        {
-            InventoryManager.Instance.AddItem("Padi", totalPadi);
-            Debug.Log($"✅ Total panen Padi: {totalPadi}");
-        }
-
-        if (totalJagung > 0)
-        {
-            InventoryManager.Instance.AddItem("Jagung", totalJagung);
-            Debug.Log($"✅ Total panen Jagung: {totalJagung}");
-        }
+    {
+        InventoryManager.Instance.AddItem("Padi", totalPadi);
+        Debug.Log($"✅ Total panen Padi: {totalPadi}");
     }
+
+    if (totalJagung > 0)
+    {
+        InventoryManager.Instance.AddItem("Jagung", totalJagung);
+        Debug.Log($"✅ Total panen Jagung: {totalJagung}");
+    }
+
+    if (totalXP > 0)
+    {
+        PlayerStats.Instance.AddXP(totalXP);
+        Debug.Log($"✨ Total XP diperoleh: {totalXP}");
+    }
+}
 
 
     public void ResetAllDailyStatus()
