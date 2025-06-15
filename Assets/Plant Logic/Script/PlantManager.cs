@@ -8,14 +8,22 @@ public class PlantManager : MonoBehaviour
     public PlantData jagungData;
     public PlantPlot selectedPlot;
     public PlantPlotGroup selectedGroup;
+
+    public GameObject padiButton;
+    public GameObject jagungButton;
+
     public void PlantPadi(){
         if(selectedGroup != null)
         selectedGroup.PlantAll(padiData);
+        FindObjectOfType<GameUI>().UpdateTaskListUI();
+
     }
 
     public void PlantJagung(){
         if(selectedGroup !=null)
         selectedGroup.PlantAll(jagungData);
+        FindObjectOfType<GameUI>().UpdateTaskListUI();
+
     }
 
     public void SetSelectedGroup(PlantPlotGroup group){
@@ -27,6 +35,9 @@ public class PlantManager : MonoBehaviour
 
         selectedGroup.SetHighlighted(true);
         Debug.Log("Sawah dipilih: "+ group.name);
+
+        padiButton.SetActive(true);
+        jagungButton.SetActive(true);
     }   
 
         public void Harvest()
@@ -42,6 +53,9 @@ public class PlantManager : MonoBehaviour
         {
             selectedGroup.SetHighlighted(false);
             selectedGroup = null;
+
+            padiButton.SetActive(false);
+            jagungButton.SetActive(false);
         }
     }
 

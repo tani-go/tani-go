@@ -1132,140 +1132,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3897457338272953698, guid: 1e166ca65f836ad40a323e96a291f029, type: 3}
   m_PrefabInstance: {fileID: 965945394}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5091058
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5091059}
-  - component: {fileID: 5091061}
-  - component: {fileID: 5091060}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &5091059
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5091058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1846629268}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5091060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5091058}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Padi
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &5091061
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5091058}
-  m_CullTransparentMesh: 1
 --- !u!1001 &5194564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1912,6 +1778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -2283,6 +2153,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -3729,6 +3603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -4048,6 +3926,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -6476,6 +6358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -7524,6 +7410,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -9933,6 +9823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 188
@@ -10584,6 +10478,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -13294,6 +13192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -15316,6 +15218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -15553,6 +15459,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -18164,6 +18074,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -23315,6 +23229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 127
@@ -28120,6 +28038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -28476,6 +28398,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -29301,13 +29227,14 @@ GameObject:
   - component: {fileID: 151244150}
   - component: {fileID: 151244149}
   - component: {fileID: 151244148}
+  - component: {fileID: 151244152}
   m_Layer: 5
   m_Name: PlantingCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &151244148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29379,9 +29306,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1846629268}
-  - {fileID: 858632585}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 579
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29390,6 +29315,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &151244152
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151244147}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &151372407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30184,6 +30121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -30664,140 +30605,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1781680475063329005, guid: 2e1ecf6b062fbd248a32028e6ef85fcd, type: 3}
   m_PrefabInstance: {fileID: 1437854916}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &157592714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 157592715}
-  - component: {fileID: 157592717}
-  - component: {fileID: 157592716}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &157592715
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157592714}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 858632585}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &157592716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157592714}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Jagung
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &157592717
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157592714}
-  m_CullTransparentMesh: 1
 --- !u!4 &157891695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1781680475063329005, guid: 2e1ecf6b062fbd248a32028e6ef85fcd, type: 3}
@@ -31748,6 +31555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -31928,6 +31739,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -37967,6 +37782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -38887,6 +38706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -39413,6 +39236,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -40504,6 +40331,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -43679,6 +43510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -45892,6 +45727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -46947,6 +46786,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -51508,6 +51351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -54711,6 +54558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -56211,6 +56062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -56647,6 +56502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -56895,6 +56754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -56951,6 +56814,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -57692,6 +57559,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -64502,6 +64373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -65639,6 +65514,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -66859,6 +66738,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -68593,6 +68476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -69395,6 +69282,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -71638,6 +71529,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -74394,6 +74289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -74703,6 +74602,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -75594,6 +75497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -76462,6 +76369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -76828,6 +76739,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -78389,6 +78304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -78445,6 +78364,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -78683,6 +78606,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -81367,6 +81294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -81485,6 +81416,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -84082,6 +84017,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -88279,6 +88218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -90311,6 +90254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -91677,6 +91624,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -95054,6 +95005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -96824,6 +96779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -97764,6 +97723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 183
@@ -97820,6 +97783,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -98794,6 +98761,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -100840,6 +100811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -101258,6 +101233,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (138)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -102029,6 +102008,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -104656,6 +104639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -105997,6 +105984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -106405,6 +106396,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -107632,6 +107627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -107869,6 +107868,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -108985,6 +108988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -109279,6 +109286,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -111940,6 +111951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -114375,6 +114390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -116344,6 +116363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -116400,6 +116423,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -117511,6 +117538,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -119614,6 +119645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -120958,6 +120993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (194)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 180
@@ -121630,6 +121669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -121815,6 +121858,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -125022,6 +125069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -127519,6 +127570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 102
@@ -129258,6 +129313,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -132712,6 +132771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -133564,6 +133627,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (173)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -135264,6 +135331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -135325,6 +135396,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -138209,6 +138284,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -141742,6 +141821,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -146374,6 +146457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -147181,6 +147268,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -150130,6 +150221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -151199,6 +151294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -151689,6 +151788,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -152832,7 +152935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &858632585
 RectTransform:
   m_ObjectHideFlags: 0
@@ -152840,13 +152943,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858632584}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 157592715}
-  m_Father: {fileID: 151244151}
-  m_RootOrder: 1
+  m_Children: []
+  m_Father: {fileID: 1844927170}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -153081,6 +153183,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -155268,6 +155374,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -165810,6 +165920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -168692,6 +168806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -171272,6 +171390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -172265,6 +172387,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -173798,6 +173924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 196
@@ -173968,6 +174098,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -174755,6 +174889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -174878,6 +175016,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -175216,6 +175358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -175525,6 +175671,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -176063,6 +176213,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -179256,6 +179410,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -184602,6 +184760,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -190576,6 +190738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 190
@@ -190699,6 +190865,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -192001,6 +192171,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -193909,6 +194083,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -196778,6 +196956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 119
@@ -198166,6 +198348,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -200390,6 +200576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 122
@@ -200642,6 +200832,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -201744,6 +201938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -202083,6 +202281,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -203100,6 +203302,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -206364,6 +206570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -207477,6 +207687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -207791,6 +208005,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -208468,6 +208686,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -210702,6 +210924,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (183)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -214856,6 +215082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -214912,6 +215142,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -216893,6 +217127,8 @@ MonoBehaviour:
   jagungData: {fileID: 11400000, guid: 29cd9445e5a8abd49acb2fddaf99d203, type: 2}
   selectedPlot: {fileID: 0}
   selectedGroup: {fileID: 0}
+  padiButton: {fileID: 1846629267}
+  jagungButton: {fileID: 858632584}
 --- !u!4 &1210382266
 Transform:
   m_ObjectHideFlags: 0
@@ -218252,6 +218488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -218452,6 +218692,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -218892,6 +219136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -219308,6 +219556,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -221209,6 +221461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -221575,6 +221831,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -223616,6 +223876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 189
@@ -224081,6 +224345,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -225081,6 +225349,7 @@ GameObject:
   - component: {fileID: 1266255317}
   - component: {fileID: 1266255320}
   - component: {fileID: 1266255319}
+  - component: {fileID: 1266255321}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -225191,6 +225460,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!225 &1266255321
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266255315}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1266280361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -228089,6 +228370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -230126,6 +230411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (199)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 175
@@ -230834,6 +231123,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -236948,6 +237241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 187
@@ -238061,6 +238358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -238536,6 +238837,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -243651,6 +243956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -244285,6 +244594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 141
@@ -244651,6 +244964,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (202)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -248093,6 +248410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 133
@@ -250207,6 +250528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 209
@@ -251190,6 +251515,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -253542,6 +253871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -254151,6 +254484,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (181)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -258012,6 +258349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -259658,6 +259999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -260060,6 +260405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -260188,6 +260537,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -260936,6 +261289,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -264503,6 +264860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 186
@@ -264626,6 +264987,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -265046,6 +265411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 109
@@ -265441,6 +265810,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -267419,6 +267792,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (208)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -269900,6 +270277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 173
@@ -270033,6 +270414,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -272127,6 +272512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -273332,6 +273721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -273994,6 +274387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 185
@@ -274374,7 +274771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba28e97c95d4b74693f128a0b5353f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedMaterial: {fileID: 0}
+  selectedMaterial: {fileID: 2100000, guid: 615a19d97ad7dd24dbad36d02894f33e, type: 2}
 --- !u!4 &1553599250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1781680475063329005, guid: 2e1ecf6b062fbd248a32028e6ef85fcd, type: 3}
@@ -277532,6 +277929,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -283249,6 +283650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -284799,6 +285204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -285889,6 +286298,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -286983,7 +287396,11 @@ MonoBehaviour:
   siramButton: {fileID: 498772645}
   semprotHamaButton: {fileID: 329588020}
   taskListText: {fileID: 804963854}
-  allGroups: []
+  allGroups:
+  - {fileID: 1097437160}
+  - {fileID: 1553431768}
+  - {fileID: 2046711832}
+  - {fileID: 2043452205}
 --- !u!4 &1631684034
 Transform:
   m_ObjectHideFlags: 0
@@ -293295,6 +293712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 161
@@ -295696,6 +296117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -296916,6 +297341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (203)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -296972,6 +297401,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -302833,6 +303266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -304294,6 +304731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -305649,6 +306090,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -308025,6 +308470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -308277,6 +308726,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -309953,6 +310406,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -313938,6 +314395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -315126,6 +315587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -315239,6 +315704,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -317650,6 +318119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -317957,6 +318430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 206
@@ -318194,6 +318671,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -318772,6 +319253,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -325457,6 +325942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 203
@@ -325639,6 +326128,7 @@ GameObject:
   - component: {fileID: 1844927173}
   - component: {fileID: 1844927172}
   - component: {fileID: 1844927171}
+  - component: {fileID: 1844927174}
   m_Layer: 5
   m_Name: GameUICanvas
   m_TagString: Untagged
@@ -325662,6 +326152,8 @@ RectTransform:
   - {fileID: 1576986627}
   - {fileID: 453821560}
   - {fileID: 130756920}
+  - {fileID: 1846629268}
+  - {fileID: 858632585}
   m_Father: {fileID: 0}
   m_RootOrder: 575
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -325731,6 +326223,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!225 &1844927174
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844927169}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1845061845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -326178,7 +326682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1846629268
 RectTransform:
   m_ObjectHideFlags: 0
@@ -326186,13 +326690,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846629267}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5091059}
-  m_Father: {fileID: 151244151}
-  m_RootOrder: 0
+  m_Children: []
+  m_Father: {fileID: 1844927170}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -329468,6 +329971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -329864,6 +330371,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -330671,6 +331182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 167
@@ -331151,6 +331666,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -336403,6 +336922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -337633,6 +338156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -337746,6 +338273,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -338133,6 +338664,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -341442,6 +341977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 194
@@ -342572,6 +343111,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -345204,6 +345747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -345270,6 +345817,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -346044,6 +346595,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -347360,6 +347915,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -349903,6 +350462,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -357264,6 +357827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -357801,6 +358368,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -359013,6 +359584,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -363641,6 +364216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -364064,6 +364643,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (170)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -365698,6 +366281,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -371172,6 +371759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (205)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 169
@@ -371714,6 +372305,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -372624,6 +373219,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (197)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
@@ -376906,6 +377505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlotTemplate (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -377093,6 +377696,10 @@ PrefabInstance:
     - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_Name
       value: PlotTemplate (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279773241934889458, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6988724812645689727, guid: 727099a9f630dba41bb33999c8e1047e, type: 3}
       propertyPath: m_RootOrder

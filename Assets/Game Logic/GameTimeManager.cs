@@ -37,12 +37,18 @@ public class GameTimeManager : MonoBehaviour
         Debug.Log("Hari ke - "+currentDay);
 
         if(seasonManager != null)
-        seasonManager.UpdateSeason(currentDay);
+            seasonManager.UpdateSeason(currentDay);
         Debug.Log("Hari ke - "+currentDay + " | Musim: " + seasonManager.GetCurrentSeason());
 
-        onDayPassed?.Invoke();//memanggil event(pertumbuhan, musim)
+        // ✅ RESET DULU status harian sebelum pertumbuhan dilakukan
+        foreach (var group in FindObjectsOfType<PlantPlotGroup>())
+        {
+            group.ResetAllDailyStatus();
+        }
 
+        onDayPassed?.Invoke(); // Baru jalankan pertumbuhan (GrowPerDay)
     }
+
 
     public void SkipToNextDay(){
         Debug.Log("Lanjut ke hari berikutnya");

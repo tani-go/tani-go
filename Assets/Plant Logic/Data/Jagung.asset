@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 2f0a733783fca674aa6e5f20b8a5d25e, type: 3}
   - {fileID: 2658104347403863969, guid: 530671a6dcce5b84992a7417b0d91c86, type: 3}
   growthTimes:
+  - 1
   - 3
   - 3
-  - 5
   - 7

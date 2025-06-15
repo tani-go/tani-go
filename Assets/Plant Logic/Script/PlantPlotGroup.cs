@@ -36,8 +36,12 @@ public class PlantPlotGroup : MonoBehaviour
 
 
     void OnMouseDown(){
+            if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+        return;
+        
         FindObjectOfType<PlantManager>().SetSelectedGroup(this);
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +52,14 @@ public class PlantPlotGroup : MonoBehaviour
         foreach (var plot in plots)
         {
             plot.Harvest();
+        }
+    }
+
+    public void ResetAllDailyStatus()
+    {
+        foreach (var plot in plots)
+        {
+            plot.ResetDailyStatus();
         }
     }
 

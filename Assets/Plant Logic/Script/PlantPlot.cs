@@ -19,6 +19,9 @@
         public bool hasRemovedPestToday = false;
         bool matiKarenaAir = false;
         bool matiKarenaHama = false;
+        bool pestRemovedYesterday = false;
+        bool wateredYesterday = false;
+
 
         public GameObject tanahNormal;
         public GameObject tanahBajak;
@@ -120,6 +123,12 @@
 
         public void GrowPerDay()
         {
+ //           int hari = FindObjectOfType<GameTimeManager>().GetCurrentDay();
+ //           Debug.Log($"📦 {gameObject.name} GrowPerDay hari ke-{hari} | pestRemovedYesterday: {pestRemovedYesterday}");
+
+            matiKarenaAir = false;
+            matiKarenaHama = false;
+    
             if (plantData == null || isDead || stage >= plantData.growthPrefabs.Length) return;
             if (isPreparing)
             {
@@ -175,15 +184,21 @@
 
             if (plantData.plantType == PlantData.PlantType.Jagung)
             {
-                if (!hasWateredToday)
+                if (!wateredYesterday)
                 {
                     matiKarenaAir = true;
                 }
 
-                if (!hasRemovedPestToday)
+                if (!pestRemovedYesterday)
                 {
+        //            Debug.Log($"❌ {gameObject.name} mati karena hama! Hari sebelumnya tidak disemprot.");
+
                     matiKarenaHama = true;
                 }
+             //   else
+             //   {
+           //         Debug.Log($"✅ {gameObject.name} aman dari hama. Kemarin sudah disemprot.");
+              //  }
             }
             else if (plantData.plantType == PlantData.PlantType.Padi)
             {
@@ -192,7 +207,7 @@
                     matiKarenaAir = true;
                 }
 
-                if (!hasRemovedPestToday)
+                if (!pestRemovedYesterday)
                 {
                     matiKarenaHama = true;
                 }
@@ -217,11 +232,6 @@
                 if (plantData.plantType == PlantData.PlantType.Padi && soilState != SoilState.Air)
                 {
                     matiKarenaAir = true;
-                }
-
-                if (!hasRemovedPestToday)
-                {
-                    matiKarenaHama = true;
                 }
 
                 if (matiKarenaAir || matiKarenaHama)
@@ -283,16 +293,39 @@
         {
             hasWateredToday = true;
             Debug.Log("Tanaman disiram hari ini.");
+                int hari = FindObjectOfType<GameTimeManager>().GetCurrentDay();
+
         }
 
         public void RemovePestToday()
         {
             hasRemovedPestToday = true;
-            Debug.Log("Hama dihapus hari ini.");
+            int hari = FindObjectOfType<GameTimeManager>().GetCurrentDay();
+            Debug.Log($"✅ Hama disemprot hari ke-{hari} pada plot {gameObject.name}");
         }
         public bool IsInPreparation()
         {
             return isPreparing;
         }
+
+        public void ResetDailyStatus()
+        {
+            pestRemovedYesterday = hasRemovedPestToday;
+            wateredYesterday = hasWateredToday;
+
+            hasRemovedPestToday = false;
+            hasWateredToday = false;
+
+            // ✅ Reset tanah kembali ke Bajak jika sebelumnya BajakBasah
+            if (soilState == SoilState.BajakBasah)
+            {
+                soilState = SoilState.Bajak;
+                Debug.Log($"🟤 Tanah {gameObject.name} kembali ke Bajak dari BajakBasah");
+                UpdateVisual();
+            }
+
+          //  Debug.Log($"🔁 RESET harian untuk {gameObject.name} | PestKemarin: {pestRemovedYesterday} | AirKemarin: {wateredYesterday}");
+        }
+
 
     }
