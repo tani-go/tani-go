@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class GameTimeManager : MonoBehaviour
 {
+    public static GameTimeManager Instance;
+
     public float secondsPerDay = 120f; //600 = 10 menit
     private float timeCounter = 0f;
     public int currentDay = 1;
@@ -18,7 +20,17 @@ public class GameTimeManager : MonoBehaviour
     {
         
     }
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject); // hapus duplikat saat reload scene
+            return;
+        }
 
+        Instance = this;
+        DontDestroyOnLoad(gameObject); // biar tidak ke-reset saat pindah scene
+    }
     // Update is called once per frame
     void Update()
     {

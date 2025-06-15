@@ -38,7 +38,7 @@ public class PlantPlotGroup : MonoBehaviour
     void OnMouseDown(){
             if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
         return;
-        
+
         FindObjectOfType<PlantManager>().SetSelectedGroup(this);
     }
 
@@ -47,13 +47,39 @@ public class PlantPlotGroup : MonoBehaviour
     {
         
     }
+
     public void HarvestAll()
     {
+        int totalPadi = 0;
+        int totalJagung = 0;
+
         foreach (var plot in plots)
         {
-            plot.Harvest();
+            if (plot.CanBeHarvested())
+            {
+                string jenis = plot.GetPlantType(); // "Padi" atau "Jagung"
+                bool berhasil = plot.Harvest();
+                if (berhasil)
+                {
+                    if (jenis == "Padi") totalPadi++;
+                    else if (jenis == "Jagung") totalJagung++;
+                }
+            }
+        }
+
+        if (totalPadi > 0)
+        {
+            InventoryManager.Instance.AddItem("Padi", totalPadi);
+            Debug.Log($"✅ Total panen Padi: {totalPadi}");
+        }
+
+        if (totalJagung > 0)
+        {
+            InventoryManager.Instance.AddItem("Jagung", totalJagung);
+            Debug.Log($"✅ Total panen Jagung: {totalJagung}");
         }
     }
+
 
     public void ResetAllDailyStatus()
     {

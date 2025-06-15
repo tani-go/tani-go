@@ -246,21 +246,37 @@
             }
         }
 
-        public void Harvest(){
-            if(plantData ==  null || isDead || stage < plantData.growthPrefabs.Length-1)
+        public bool Harvest()
+        {
+            if (plantData == null || isDead || stage < plantData.growthPrefabs.Length - 1)
             {
                 Debug.Log("Belum bisa dipanen/Mati");
-                return;
+                return false;
             }
 
             Debug.Log("Tanaman dipanen");
-                plantData = null;
-                stage = 0;
-                timer = 0f;
-                daysWaited = 0;
-                isDead = false;
-                UpdateVisual(); // Bersihkan visual
+
+            plantData = null;
+            stage = 0;
+            timer = 0f;
+            daysWaited = 0;
+            isDead = false;
+            UpdateVisual();
+            return true;
         }
+
+        public bool CanBeHarvested()
+        {
+            return plantData != null && !isDead && stage >= plantData.growthPrefabs.Length - 1;
+        }
+
+
+            public string GetPlantType()
+            {
+                return plantData != null ? plantData.plantType.ToString() : "";
+            }
+
+
         public void ClearDeadPlant()
         {
             if (isDead)
