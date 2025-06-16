@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class menu : MonoBehaviour
+public class AboutScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,18 +18,9 @@ public class menu : MonoBehaviour
         
     }
 
-    public void PlayButton(string scenename)
-    {
-        SceneManager.LoadScene(scenename);
-    }
-
-    public void SettingsButton(string scenename)
-    {
-        SceneManager.LoadScene(scenename);
-    }
-
-    public void AboutButton(string scenename)
+    public void BackkButton(string scenename)
     {
         SceneManager.LoadScene(scenename);
     }
 }
+
